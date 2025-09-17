@@ -70,7 +70,7 @@ while(i<arr1.length && j<arr2.length)
 		
 //		int [] mergedsortarray=m1(arr1,arr2);
 		int[] mergedsortarray = m1(arr1, arr2);
-//Print the Array Here		
+//Print the MergedSortArray Here		
 System.out.println(Arrays.toString(mergedsortarray));
 	}
 }
