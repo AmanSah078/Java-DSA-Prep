@@ -1,5 +1,5 @@
 import java.util.*;
-class Trail {
+class MaxArray {
 	public static void m1(int[] arr)
 	{
 	int max=arr[0];
