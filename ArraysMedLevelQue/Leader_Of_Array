@@ -1,0 +1,36 @@
+[16, 17, 4, 3, 5, 2]
+2,5,17
+
+
+import java.util.*;
+class LeaderofArray {
+	public static void leader(int[] arr)
+	{
+		int n=arr.length;
+		int maxright=arr[n-1];
+		System.out.println(maxright);
+	
+		for(int i=n-2; i>=0; i--)
+		{
+			if(arr[i]>maxright)
+			{
+				maxright=arr[i];
+				System.out.println(maxright);
+			}
+		}
+		
+
+	}
+	public static void main(String[] args)
+	{
+		Scanner sc= new Scanner(System.in);
+		int n=sc.nextInt();
+		int[] arr= new int[n];
+		for(int i=0; i<arr.length; i++)
+		{
+			arr[i]=sc.nextInt();
+		}
+			
+	leader(arr);
+	}
+}
