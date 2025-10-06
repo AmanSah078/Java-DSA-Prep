@@ -36,9 +36,7 @@ if(arr[mid]==target)
 					else {
 						start=mid+1;
 					}
-				}
-	//it means when target==mid then at that time need to return the mid na		
-		
+				}		
 	}
 		return -1;
 }
